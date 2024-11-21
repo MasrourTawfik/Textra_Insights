@@ -58,6 +58,11 @@ To understand better the benifit of a Document Parser, here is a video from Mega
    - You can find `here <https://github.com/QuivrHQ/MegaParse>`_ the MegaParse repository
    - For Upstage API, you can find `here <https://www.upstage.ai/products/document-parse>`_ the official website.
 
+A hands-on example of this pipeline can be found in colab notebook.
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/3_Information_Extraction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 2.2 With an OCR
 +++++++++++++++++
