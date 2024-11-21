@@ -1,5 +1,5 @@
-Bienvenue à Textra's documentation!
-====================================
+Welcome to Textra Insights's documentation!
+============================================
 
 .. toctree::
    :maxdepth: 2
