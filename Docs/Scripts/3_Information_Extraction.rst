@@ -11,22 +11,28 @@ VLM(Vision Language models) like **LLaVA-7b**, **Llama-Vision3.2** are multimoda
 They can be fine-tuned or used out-of-the-box to extract structured data from documents like invoices by processing images directly and generating textual outputs.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Pipeline1.png
-   :width: 100%
+   :width: 80%
    :align: center
    :alt: Using a VLM
    :name: Pipeline
 
 2.Using LLM :
 ----------------
+2.1 With a Document Parser
++++++++++++++++++++++++++++++
 
 An alternative approach involves a **Document Parser** to extract text and structure it into **Markdown** format.
 Passing this structured text to an **LLM** for processing and extracting key information.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Pipeline2.png
-   :width: 100%
+   :width: 80%
    :align: center
    :alt: Using a Document Parser + LLM
    :name: Pipeline
+
+2.2 With an OCR
++++++++++++++++++
+
 
 
 
