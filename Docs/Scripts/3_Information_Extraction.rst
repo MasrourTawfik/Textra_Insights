@@ -16,6 +16,7 @@ They can be fine-tuned or used out-of-the-box to extract structured data from do
    :alt: Using a VLM
    :name: Pipeline
 
+
 2.Using LLM :
 ----------------
 
