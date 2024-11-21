@@ -1,7 +1,7 @@
 Information Extraction
 =======================
 
-The fist stone of our pipeline is extracting main entities from french invoices.
+The first stone of our pipeline is extracting main entities from french invoices.
 This can be done with three different methods :
 
 1.Using a VLM :
@@ -16,7 +16,7 @@ They can be fine-tuned or used out-of-the-box to extract structured data from do
    :alt: Using a VLM
    :name: Pipeline
 
-To test this approach we used Llama-Vision11b with Langchain and Ollama, all the Code here in a colab notebook.
+To test this approach we used Llama-Vision-11b with Langchain and Ollama, all the Code here in a colab notebook.
 
 .. raw:: html
 
@@ -40,7 +40,7 @@ Passing this structured text to an **LLM** for processing and extracting key inf
 A question should be asked here is *Why using a Document Parser ?*, because LLMs understand markdown text better. Besides to 
 preserving the Invoice's layout and tabulated data in a proper format.
 
-There are many options regarding Document Parsers like in the picture (Upstage API, MegaParse, Docling...). But keep in mind that 
+There are many options like : Upstage API, MegaParse, Docling... but keep in mind that 
 we want our tool's inference to be 100% with local and limited resources. So we decided to countinue with **Docling** of IBM.
 
 To understand better the benifit of a Document Parser, here is a video from MegaParse github repository :
