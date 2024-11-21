@@ -45,7 +45,7 @@ In general three types of accounts are used :
   - Credit Account
   - VAT Account
 
-5. Reporting to the journal book
+5.Reporting to the journal book
 =================================
 
 What is  journal book ?
