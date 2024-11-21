@@ -44,10 +44,23 @@ In general three types of accounts are used :
   - Credit Account
   - VAT Account
 
+5. Reporting to the journal book
+=================================
 
+What is  journal book ?
++++++++++++++++++++++++
+A document that chronologically records all the financial transactions of a company during a given fiscal year.
 
+It allows:
 
+ - Recording all the company's accounting transactions chronologically, both on the credit and debit sides.
+ - Organizing the entries for the current fiscal year based on their nature (purchases, sales, treasury, etc.).
 
+.. figure:: /Docs/Images/1_Project/Journal_Book.png
+   :width: 100%
+   :align: center
+   :alt: Alternative text for the image
+   :name: Pipeline
 
 
 
