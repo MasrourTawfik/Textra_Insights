@@ -58,7 +58,8 @@ It allows:
  - Organizing the entries for the current fiscal year based on their nature (purchases, sales, treasury, etc.).
 
 .. figure:: /Docs/Images/1_Project/Journal_Book.jpg
-   :width: 100%
+   :width: 60%
+   :height: 60%
    :align: center
    :alt: Journal_Book
    :name: Pipeline
