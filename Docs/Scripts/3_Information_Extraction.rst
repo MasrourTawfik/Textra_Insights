@@ -78,8 +78,8 @@ A hands-on example of this pipeline can be found in colab notebook.
    :name: Pipeline
 
 For the OCR Engine There are alot of options like **PaddleOCR**, **EasyOCR**, **Tesseract**, **docTR**, ...
-- A Blog by <a href="https://blog.roboflow.com/best-ocr-models-text-recognition/#ocr-testing-methodology">Roboflow</a> countain a good bechamrking of 4 OCR models (docTR, EasyOCR, Tesseract, Surya) Show that EasyOCR has the best accuarcy/speed ratio.
-- Another comparaison between EasyOCR and <a href = "https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html">PaddleOCR</a> by **Christian Weiler** <a href="https://www.bludelta.de/en/ocr-and-deepocr-in-comparison/">here</a> on 400 real invoices, show that EasyOCR has the best metrics.
+- A Blog by `Roboflow <https://blog.roboflow.com/best-ocr-models-text-recognition/#ocr-testing-methodology>`_ countain a good bechamrking of 4 OCR models (docTR, EasyOCR, Tesseract, Surya) Show that EasyOCR has the best accuarcy/speed ratio.
+- Another comparaison between EasyOCR and `Paddle <https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html>`_ by **Christian Weiler** `here <https://www.bludelta.de/en/ocr-and-deepocr-in-comparison/>` on 400 real invoices, show that EasyOCR has the best metrics.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Roboflow.png
    :width: 80%
