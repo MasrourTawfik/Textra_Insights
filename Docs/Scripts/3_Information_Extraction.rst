@@ -95,11 +95,45 @@ For the OCR-Engine there are alot of options like **PaddleOCR**, **EasyOCR**, **
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/3_Information_Extraction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+3.Benchmarking :
+----------------
 
+We have now three available methods to extract information from invoices.To decide which one is the best, we have to compare them.
 
+- The methodology is straightforward, first we should counstarct our grounding truth small dataset of extracted informations from Invoices, these can be done using GPT4 because is so good on that.
+- Then we can compare each approach outputs with the grounding truth, and calculate **Accuaracy**.
+- Three Benchmarks are Considered: `Accuracy`, `Inference time (s)` and `Cost`.
+- The Grounding Truth dataset will be in a form of a csv file we will focus on Entities like :
 
+    - TT,TTC,TVA,Date de facture,Numero facture, Supplier Name.
 
+- All the Bechmarking process is done with a L4 machine (24GB in Vram, 16 Cores).
 
+3.1 Levenshtein distance (Edit distance)
+++++++++++++++++++++++++++++++++++++++++
+
+Levenshtein distance is a measure of the similarity between two strings, which takes into account the number of insertion, deletion and substitution operations needed to transform one string into the other. 
+Operations in Levenshtein distance are:
+
+- Insertion: Adding a character to string A.
+- Deletion: Removing a character from string A.
+- Replacement: Replacing a character in string A with another character.
+
+**Example :**
+
+Let’s see an example that there is String A: *kitten*  which need to be converted in String B: *sitting* so we need to determine the minimum operation required
+
+kitten → sitten (substitution of k by s)
+sitten → sittin (substitution of e by i)
+sittin → sitting (insertion of g at the end).
+
+In this case it took three operation do this, so the levenshtein distance will be **3**.
+
+.. figure:: /Docs/Images/3_Information_Extraction/Levenshtein.png
+   :width: 100%
+   :align: center
+   :alt: Levenshtein
+   :name: Pipeline
 
 
 
