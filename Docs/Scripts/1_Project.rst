@@ -2,7 +2,8 @@ Introduction
 ===============
 Tetxtra Insights is an evolution of the previous version (`Textra <https://textra.readthedocs.io/fr/latest/index.html>`_).
 We aim to build a tool for financial summary generation.
-for an easy comprehension of our tool here is a infernce pipeline :
+
+For an easy comprehension of our tool here is a infernce pipeline :
 
 .. figure:: /Docs/Images/1_Project/Inference_Pipeline.png
    :width: 100%
@@ -56,7 +57,7 @@ It allows:
  - Recording all the company's accounting transactions chronologically, both on the credit and debit sides.
  - Organizing the entries for the current fiscal year based on their nature (purchases, sales, treasury, etc.).
 
-.. figure:: /Docs/Images/1_Project/Journal_Book.png
+.. figure:: /Docs/Images/1_Project/Journal_Book.jpg
    :width: 100%
    :align: center
    :alt: Alternative text for the image
