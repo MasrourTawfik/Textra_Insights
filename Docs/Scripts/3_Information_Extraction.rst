@@ -20,7 +20,7 @@ To test this approach we used Llama-Vision11b with Langchain and Ollama, all the
 
 .. raw:: html
 
-   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra/blob/main/Notebooks/OCR_Bench.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/3_Information_Extraction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 2.Using LLM :
 ----------------
