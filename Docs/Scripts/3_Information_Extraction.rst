@@ -16,6 +16,11 @@ They can be fine-tuned or used out-of-the-box to extract structured data from do
    :alt: Using a VLM
    :name: Pipeline
 
+To test this approach we used Llama-Vision11b with Langchain and Ollama, all the Code here in a colab notebook.
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra/blob/main/Notebooks/OCR_Bench.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 2.Using LLM :
 ----------------
