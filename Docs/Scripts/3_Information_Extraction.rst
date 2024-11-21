@@ -18,6 +18,7 @@ They can be fine-tuned or used out-of-the-box to extract structured data from do
 
 2.Using LLM :
 ----------------
+
 2.1 With a Document Parser
 +++++++++++++++++++++++++++++
 
@@ -29,6 +30,26 @@ Passing this structured text to an **LLM** for processing and extracting key inf
    :align: center
    :alt: Using a Document Parser + LLM
    :name: Pipeline
+
+A question should be asked here is *Why using a Document Parser ?*, because LLMs understand markdown text better. Besides to 
+preserving the Invoice's layout and tabulated data in a proper format.
+
+There many options regarding Document Parsers like in the picture (Upstage API, MegaParse, Docling...). But keep in mind that 
+we want our tool's inference to be 100% with local and limited resources. So we decided to countinue with **Docling** of IBM.
+
+To understand better the benifit of a Document Parser, here is a video from MegaParse github repository :
+
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/RhX_vsk7abg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+.. note:: 
+
+   - Si possible de rencontrer une erreur lors de création de fichier json, à cause de l'antivirus, pour régler il faut suivre les étapes suivantes :
+
 
 2.2 With an OCR
 +++++++++++++++++

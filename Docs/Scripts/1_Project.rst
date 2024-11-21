@@ -1,7 +1,7 @@
 Introduction
 ===============
 Tetxtra Insights is an evolution of the previous version (`Textra <https://textra.readthedocs.io/fr/latest/index.html>`_).
-We aim to build a tool for financial summary generation.
+We aim to build a tool for financial summary generation with a goal to keep inference with local and limited computing resources.
 
 For an easy comprehension of our tool here is a infernce pipeline :
 
