@@ -39,7 +39,6 @@ we want our tool's inference to be 100% with local and limited resources. So we 
 
 To understand better the benifit of a Document Parser, here is a video from MegaParse github repository :
 
-
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -48,7 +47,9 @@ To understand better the benifit of a Document Parser, here is a video from Mega
 
 .. note:: 
 
-   - Si possible de rencontrer une erreur lors de création de fichier json, à cause de l'antivirus, pour régler il faut suivre les étapes suivantes :
+   - Visit the `Docling <https://ds4sd.github.io/docling/>`_ documentation for more details.
+   - You can find `here <https://github.com/QuivrHQ/MegaParse>`_ the MegaParse repository
+   - For Upstage API, you can find `here <https://www.upstage.ai/products/document-parse>`_ the official website.
 
 
 2.2 With an OCR
