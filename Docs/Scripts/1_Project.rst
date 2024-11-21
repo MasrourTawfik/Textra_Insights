@@ -1,6 +1,7 @@
 Introduction
 ===============
-Tetxtra Insights is an evolution of the previous version (`Textra <https://textra.readthedocs.io/fr/latest/index.html>`_)
+Tetxtra Insights is an evolution of the previous version (`Textra <https://textra.readthedocs.io/fr/latest/index.html>`_). We want more more than
+just Information extraction, we aim to build a tool for finacial synthetic data generation. This tool will be used to generate synthetic data for
 
 
 
