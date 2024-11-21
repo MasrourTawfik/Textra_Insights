@@ -8,7 +8,7 @@ For an easy comprehension of our tool here is a infernce pipeline :
 .. figure:: /Docs/Images/1_Project/Inference_Pipeline.png
    :width: 100%
    :align: center
-   :alt: Alternative text for the image
+   :alt: Inference_Pipeline
    :name: Pipeline
 
 1.Input
@@ -60,7 +60,7 @@ It allows:
 .. figure:: /Docs/Images/1_Project/Journal_Book.jpg
    :width: 100%
    :align: center
-   :alt: Alternative text for the image
+   :alt: Journal_Book
    :name: Pipeline
 
 
