@@ -1,5 +1,5 @@
-Equipe
-======================================
+Team
+======
 
 The team is composed of 2 individuals. They operated under the supervision of Mr. Tawfik Masrour and Badreddine Hannaoui.
 
