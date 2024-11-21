@@ -24,7 +24,8 @@ Preprocessing Images (For Scanned or Photographed Invoices) by :
   - Denoise the image to remove background noise.
   - Binarize the image (convert to black and white) for better OCR (Optical Character Recognition) results.
   
-
+.. hint::
+   - You can find more details about this step in Tetxra documentation. `here <https://textra.readthedocs.io/fr/latest/Documentation/Scripts/4_Pr%C3%A9traitement.html>`_
 3.Information Extraction
 =========================
 Extracts key fields from invoices for further analysis like :
