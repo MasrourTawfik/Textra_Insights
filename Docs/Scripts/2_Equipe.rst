@@ -1,9 +1,9 @@
 Equipe
 ======================================
 
-L'équipe se compose de 2 individus. Ils ont opéré sous l'encadrement de Mr Tawfik Masrour et Badreddine Hannaoui.
+The team is composed of 2 individuals. They operated under the supervision of Mr. Tawfik Masrour and Badreddine Hannaoui.
 
-Les encadrants : 
+Supervisors 
 ----------------
     - **Encadrant 1**: Masrour Tawfik |linkedin_Masrour|
     - **Encadrant 2**: Hannaoui Badreddine |linkedin_Badr|
@@ -17,8 +17,8 @@ Les encadrants :
     :height: 16
     :target: https://www.linkedin.com/in/badreddine-hannaoui/
 
-Les membres :
---------------
+Membres
+----------
 
     - **Membre 1**: Ait Ayach Mouad |linkedin_mouad|
     - **Membre 2**: Saidi Noureddine |linkedin_saidi|
