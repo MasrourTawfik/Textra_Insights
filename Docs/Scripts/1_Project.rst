@@ -62,7 +62,6 @@ It allows:
 
 .. figure:: /Docs/Images/1_Project/Journal_Book.jpg
    :width: 60%
-   :height: 60%
    :align: center
    :alt: Journal_Book
    :name: Pipeline
