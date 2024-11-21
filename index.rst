@@ -7,5 +7,6 @@ Bienvenue à Textra's documentation!
 
    Docs/Scripts/1_Project.rst
    Docs/Scripts/2_Equipe.rst
+   Docs/Scripts/Information_Extraction.rst
 
 
