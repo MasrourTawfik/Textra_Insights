@@ -6,5 +6,6 @@ Bienvenue à Textra's documentation!
    :caption: Table:
 
    Docs/Scripts/1_Project.rst
+   Docs/Scripts/2_Equipe.rst
 
 
