@@ -11,7 +11,7 @@ VLM(Vision Language models) like **LLaVA-7b**, **Llama-Vision3.2** are multimoda
 They can be fine-tuned or used out-of-the-box to extract structured data from documents like invoices by processing images directly and generating textual outputs.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Pipeline1.png
-   :width: 80%
+   :width: 60%
    :align: center
    :alt: Using a VLM
    :name: Pipeline
@@ -79,12 +79,14 @@ A hands-on example of this pipeline can be found in colab notebook.
    :alt: Using an OCR + LLM
    :name: Pipeline
 
-For the OCR Engine There are alot of options like **PaddleOCR**, **EasyOCR**, **Tesseract**, **docTR**, ...
+For the OCR-Engine there are alot of options like **PaddleOCR**, **EasyOCR**, **Tesseract**, **docTR**, ...
+
 - A Blog by `Roboflow <https://blog.roboflow.com/best-ocr-models-text-recognition/#ocr-testing-methodology>`_ countain a good bechamrking of 4 OCR models (docTR, EasyOCR, Tesseract, Surya) Show that EasyOCR has the best accuarcy/speed ratio.
-- Another comparaison between EasyOCR and `Paddle <https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html>`_ by **Christian Weiler** `here <https://www.bludelta.de/en/ocr-and-deepocr-in-comparison/>` on 400 real invoices, show that EasyOCR has the best metrics.
+
+- Another comparaison between EasyOCR and `Paddle <https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html>`_ by **Christian Weiler** `here <https://www.bludelta.de/en/ocr-and-deepocr-in-comparison/>`_ on 400 real invoices, show that EasyOCR has the best metrics.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Roboflow.png
-   :width: 80%
+   :width: 100%
    :align: center
    :alt: Using an OCR + LLM
    :name: Pipeline
