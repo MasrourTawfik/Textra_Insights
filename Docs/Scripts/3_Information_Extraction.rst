@@ -67,9 +67,15 @@ A hands-on example of this pipeline can be found in colab notebook.
 2.2 With an OCR
 +++++++++++++++++
 
+1. **OCR (Optical Character Recognition)** Converts the invoice into machine-readable plain text by extracting text data from the Invoice.  
+3. **LLM (Large Language Model)**: The text is processed by an LLM.
+4. 🎉 **Output**: The processed information is presented in a structered json format.
 
-
-
+.. figure:: /Docs/Images/3_Information_Extraction/Pipeline3.png
+   :width: 80%
+   :align: center
+   :alt: Using an OCR + LLM
+   :name: Pipeline
 
 
 
