@@ -16,8 +16,13 @@ The process begins with one or multiple invoices (Images,Pdf files), which can b
 
 2.Enhancement
 ===============
-The first step is to enhance quality of the invoices. with python libraries like
+The first step is enhancing quality of the invoices. with python libraries like
 **OpenCV**, **PILOW**,...
+Preprocessing Images (For Scanned or Photographed Invoices) by : 
+  - Convert images to grayscale for simpler processing.
+  - Denoise the image to remove background noise.
+  - Binarize the image (convert to black and white) for better OCR (Optical Character Recognition) results.
+  
 
 3.Information Extraction
 =========================
