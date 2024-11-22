@@ -98,14 +98,14 @@ For the OCR-Engine there are alot of options like **PaddleOCR**, **EasyOCR**, **
 3.Benchmarking :
 ----------------
 
-We have now three available methods to extract information from invoices.To decide which one is the best, we have to compare them.
+We have now three available methods to extract information from invoices. To decide which one is the best we have to compare them.
 
-- The methodology is straightforward, first we should counstarct our grounding truth small dataset of extracted informations from Invoices, these can be done using GPT4 because is so good on that.
+- The methodology is straightforward, first we should counstarct our grounding truth small dataset of extracted informations from Invoices, these can be done using **GPT4** because is so good on that.
 - Then we can compare each approach outputs with the grounding truth, and calculate **Accuaracy**.
 - Three Benchmarks are Considered: `Accuracy`, `Inference time (s)` and `Cost`.
-- The Grounding Truth dataset will be in a form of a csv file we will focus on Entities like :
+- The Grounding Truth dataset will be in a form of a csv file. We will focus on Entities like :
 
-    - TT,TTC,TVA,Date de facture,Numero facture, Supplier Name.
+    - TT, TTC, TVA, Date de facture, Numero facture, Supplier Name.
 
 - All the Bechmarking process is done with a L4 machine (24GB in Vram, 16 Cores).
 
@@ -130,7 +130,7 @@ sittin → sitting (insertion of g at the end).
 In this case it took three operation do this, so the levenshtein distance will be **3**.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Levenshtein.png
-   :width: 100%
+   :width: 80%
    :align: center
    :alt: Levenshtein
    :name: Pipeline
