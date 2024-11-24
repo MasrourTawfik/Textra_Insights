@@ -175,4 +175,16 @@ A detailed implimentation here:
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Benchmarking.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+3.2 Results and Discussion
++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
 
