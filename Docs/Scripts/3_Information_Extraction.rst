@@ -178,8 +178,21 @@ A detailed implimentation here:
 3.2 Results and Discussion
 +++++++++++++++++++++++++++
 
+Now it's time to some Matplotlib, based on the obtained results we can draw some conclusions.
+we plot three graphs one for **Efficiency**, **Average Accuracy (%)** and **Average Margin (Dh)**.
 
+- Efficiency is the ratio between Average Accuarcy and Average Time (s).
 
+.. hint::
+
+   - We test alot of models small and medium size like **Qween2.5 (1.5b, 3b, 7b)**, we conclude that tiny models struggle with the extraction
+   task and lead to poor metrics.
+
+.. figure:: /Docs/Images/3_Information_Extraction/Efficiency_by_Small_Model.png
+   :width: 120%
+   :align: center
+   :alt: Efficiency_by_Small_Model
+   :name: Pipeline
 
 
 
