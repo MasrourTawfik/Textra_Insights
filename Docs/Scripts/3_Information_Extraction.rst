@@ -168,6 +168,11 @@ All the implimentation Code in a colab notebook here :
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Grounding_Truth.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+After constructing the Grounding Truth dataset, we can now benchmark the three pipelines.
+A detailed implimentation here:
 
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Benchmarking.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
