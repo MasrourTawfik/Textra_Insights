@@ -135,10 +135,11 @@ In this case it took three operation do this, so the levenshtein distance will b
    :alt: Levenshtein
    :name: Pipeline
 
-3.2 Grounding Truth :
+3.2 Grounding Truth
 +++++++++++++++++++++
 
-
+3.2.1 HuggingFace Datasets
+__________________________
 
 
 
