@@ -185,8 +185,7 @@ we plot three graphs one for **Efficiency**, **Average Accuracy (%)** and **Aver
 
 .. hint::
 
-   - We test alot of models small and medium size like **Qween2.5 (1.5b, 3b, 7b)**, we conclude that tiny models struggle with the extraction
-   task and lead to poor metrics.
+   - We test alot of models small and medium size like **Qween2.5 (1.5b, 3b, 7b)**, we conclude that tiny models struggle with the extraction task and lead to poor metrics.
 
 .. figure:: /Docs/Images/3_Information_Extraction/Efficiency_by_Small_Model.png
    :width: 120%
@@ -194,6 +193,46 @@ we plot three graphs one for **Efficiency**, **Average Accuracy (%)** and **Aver
    :alt: Efficiency_by_Small_Model
    :name: Pipeline
 
+here is a plot of Efficiency by 3 famous medium size models :
+
+.. figure:: /Docs/Images/3_Information_Extraction/Efficiency_by_Model.png
+   :width: 120%
+   :align: center
+   :alt: Efficiency_by_Model
+   :name: Pipeline
+
+- Paddle consistently shows the highest efficiency across all models compared to other engines.
+- Easy performs better than Docling for all models, but is slightly less efficient than Paddle.
+- Docling has the lowest efficiency across all models, indicating it is less optimal in performance.this because it is slower than other engines.
+- The best combinition may be **llama3.2-3b + EasyOCR**.
+
+and here is a plot of Average Accuracy (%) :
+
+.. figure:: /Docs/Images/3_Information_Extraction/Accuracy_by_Model.png
+   :width: 120%
+   :align: center
+   :alt: Efficiency_by_Model
+   :name: Pipeline
+
+- Paddle achieves the highest accuracy across all models, confirming its dominance in both performance and reliability.
+- **Qween2.5-7b** and **llama3.1-8b** show the highest accuarcy with paddle, which is expected regards to their size.
+- **llama3.2-3b** perform also well even with his small size.
+
+the last plot is for Average Margin (Dh) which is the difference between the predicted and the ground truth prices.
+
+.. figure:: /Docs/Images/3_Information_Extraction/Margin_by_Model.png
+   :width: 120%
+   :align: center
+   :alt: Margin_by_Model
+   :name: Pipeline
+
+- Paddle and EasyOCR are slightly the same in terms of margin.
+- Docling is less accurate which gives the highest margins.
+- **Qween2.5-7b** and **llama3.1-8b** give good results.
+
+.. note::
+   
+   - It was expected that **Docling** would be the best Engine, because of its markdown parsing capabilities, but it is not the case. That can be explained by bad quality **ocr-backbone** used by Docling.
 
 
 
