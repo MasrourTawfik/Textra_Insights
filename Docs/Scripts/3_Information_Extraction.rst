@@ -52,6 +52,7 @@ To understand better the benifit of a Document Parser, here is a video from Mega
     </div>
 
 
+
 .. note:: 
 
    - Visit the `Docling <https://ds4sd.github.io/docling/>`_ documentation for more details.
@@ -138,9 +139,6 @@ In this case it took three operation do this, so the levenshtein distance will b
 3.2 Grounding Truth
 +++++++++++++++++++++
 
-3.2.1 HuggingFace Dataset
-__________________________
-
 To prompt GPT4 with an Image using an api, there are two main ways:
 
   - Using the **base64 encoding** of the image and passing it to the api with the prompt.
@@ -152,7 +150,9 @@ So a good option is providing the URL.
 
 - We choose randomly 30 invoices for the grounding truth we upload them to a HuggingFace Dataset.
 
-
+.. note:: 
+   - You may refine the gpt-results by hand, so you get accuarate dataset.
+   
 .. figure:: /Docs/Images/3_Information_Extraction/Grounding_Truth.png
    :width: 100%
    :align: center
