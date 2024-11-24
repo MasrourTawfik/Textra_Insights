@@ -162,11 +162,11 @@ So a good option is providing the URL.
    :alt: Process
    :name: Pipeline
 
-All the implimentation Code is in a colab notebook here :
+All the implimentation Code in a colab notebook here :
 
 .. raw:: html
 
-   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/3_Information_Extraction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Grounding_Truth.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
