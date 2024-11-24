@@ -151,13 +151,22 @@ So a good option is providing the URL.
 - We choose randomly 30 invoices for the grounding truth we upload them to a HuggingFace Dataset.
 
 .. note:: 
+
    - You may refine the gpt-results by hand, so you get accuarate dataset.
-   
+   - You can get a free GPT-4o-mini api key using `Github models <https://github.com/marketplace/models>`_ but pay attention to the `rate limit <https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits>`_.
+
+
 .. figure:: /Docs/Images/3_Information_Extraction/Grounding_Truth.png
    :width: 100%
    :align: center
    :alt: Process
    :name: Pipeline
+
+All the implimentation Code is in a colab notebook here :
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/3_Information_Extraction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
