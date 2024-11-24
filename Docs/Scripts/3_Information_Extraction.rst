@@ -138,12 +138,26 @@ In this case it took three operation do this, so the levenshtein distance will b
 3.2 Grounding Truth
 +++++++++++++++++++++
 
-3.2.1 HuggingFace Datasets
+3.2.1 HuggingFace Dataset
 __________________________
 
+To prompt GPT4 with an Image using an api, there are two main ways:
+
+  - Using the **base64 encoding** of the image and passing it to the api with the prompt.
+  - Using the **url of the image**  with the prompt.
+
+Because we have a height images quality the encoding string becomes too long leading to an API-error (we exceed the max number of input tokens).
+
+So a good option is providing the URL.
+
+- We choose randomly 30 invoices for the grounding truth we upload them to a HuggingFace Dataset.
 
 
-
+.. figure:: /Docs/Images/3_Information_Extraction/Grounding_Truth.png
+   :width: 100%
+   :align: center
+   :alt: Process
+   :name: Pipeline
 
 
 
