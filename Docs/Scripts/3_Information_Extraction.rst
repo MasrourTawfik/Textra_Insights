@@ -157,7 +157,7 @@ So a good option is providing the URL.
 
 
 .. figure:: /Docs/Images/3_Information_Extraction/Grounding_Truth.png
-   :width: 100%
+   :width: 120%
    :align: center
    :alt: Process
    :name: Pipeline
