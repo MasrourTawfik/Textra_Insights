@@ -54,6 +54,7 @@ To be able to use these definitions we need to **digitize** and **clean** them.
         - *61 CHARGES D'EXPLOITATION*
    
    - So we focused only on these two classes and their accounts.
+   - We extract only intreasted pages from **PCG General** to **PCG file**.
 
 1.1 Digitization
 +++++++++++++++++++++
