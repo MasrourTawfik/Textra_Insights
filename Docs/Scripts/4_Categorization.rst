@@ -81,10 +81,12 @@ The final desired output locks like this :
    :alt: Categorization
    :name: Pipeline
 
+- You can find the CSV file `here <https://github.com/MasrourTawfik/Textra_Insights/tree/main/Files>`_.
 
 
+.. raw:: html
 
-
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Data_Preparation.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
