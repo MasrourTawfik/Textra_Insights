@@ -62,8 +62,23 @@ We used **Marker Engine** implemented in the top of **Surya OCR** to convert our
 
 The official Github repository of **Marker** can be found `here <https://github.com/VikParuchuri/marker>`_.
 
+1.2 Cleaning
++++++++++++++++++++++
 
+To clean the result Markdown file we need to remove :
 
+- Tables (because they are not usefull for our purpose)
+- Classes and Sub Classes (because we are intreasted only in the Accounts)
+
+After this the cleaned markdown file can be converted into **json** then to **csv** format so it will be easy to work with.
+
+The final desired output locks like this :
+
+.. figure:: /Docs/Images/4_Categorization/Image2.png
+   :width: 100%
+   :align: center
+   :alt: Categorization
+   :name: Pipeline
 
 
 
