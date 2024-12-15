@@ -157,7 +157,7 @@ You find bellow a Colab notebook showing how to create your Evaluation dataset a
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Evaluation_Dataset.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-4.2 How to bechmark :
+4.2 How to bechmark 
 ---------------------
 
 A good retrieval process should return the definition (*Chunk*) of the appropriate account In addition to high similarity with the Invoice-Prompt (*Query*).
@@ -185,7 +185,8 @@ The implimentation code found here in colob notebook.
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Refining.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
+5.2 Evaluation results
+++++++++++++++++++++++++
 
 
 
