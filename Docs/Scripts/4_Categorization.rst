@@ -175,6 +175,15 @@ For the 3 approaches we can do the following :
 5.1 How to refine the definitions
 ++++++++++++++++++++++++++++++++++
 
+That the easy part we use for this **GPT-4o-mini** free api from github marketplace. 
+
+We prompt **GPT-4o-mini** with the old definition and we request adding **keywords** and **examples** to the definition.
+
+The implimentation code found here in colob notebook.
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Refining.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
