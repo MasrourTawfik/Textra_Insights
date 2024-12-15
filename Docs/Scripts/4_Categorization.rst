@@ -227,7 +227,17 @@ We build a ChromaDB with each Embedding model and we apply our Evaluation Strate
 
 The table below shows the results of the benchmarking :
 
-
++-------------------------------------------+----------------+------------------+
+| Embedding Model                           | Average Quality| Number of Zeros  |
++-------------------------------------------+----------------+------------------+
+| Alibaba-NLP/gte-multilingual-base         | 0.4264         | 12               |
+| dangvantuan/french-document-embedding     | 0.5758         | 8                |
+| hkunlp/instructor-large                   | 0.5796         | 12               |
+| thenlper/gte-large                        | **0.5922**     | 11               |
+| thenlper/gte-large-zh                     | 0.3880         | 16               |
+| Alibaba-NLP/gte-large-en-v1.5             | 0.4025         | 16               |
+| Lajavaness/bilingual-embedding-large      | 0.4639         | **5**            |
++-------------------------------------------+----------------+------------------+
 
 We highly recommend re-implementing this benchmarking because new embedding models are continually being added to the HuggingFace Hub.
 
