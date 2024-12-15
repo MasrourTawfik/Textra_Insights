@@ -225,6 +225,15 @@ Here we will test multiple embedding models to see which one is the best. We use
 
 We build a ChromaDB with each Embedding model and we apply our Evaluation Strategy on each of them.
 
+The table below shows the results of the benchmarking :
+
+
+
+We highly recommend re-implementing this benchmarking because new embedding models are continually being added to the HuggingFace Hub.
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/EmbeddingM_Benchmarking.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
