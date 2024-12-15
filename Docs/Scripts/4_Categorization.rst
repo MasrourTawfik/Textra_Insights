@@ -150,11 +150,24 @@ Example of the csv file :
    :alt: Categorization
    :name: Queries
 
-You find bellow a Colab notebook showing how to create your Evaluation dataset.
+You find bellow a Colab notebook showing how to create your Evaluation dataset and you can acces direcrly to a **Queries.csv** file `here <https://github.com/MasrourTawfik/Textra_Insights/tree/main/Files>`_.
 
 .. raw:: html
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Evaluation_Dataset.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+4.2 How to bechmark :
+---------------------
+
+
+
+
+
+
+
+
+
 
 
 
