@@ -188,6 +188,26 @@ The implimentation code found here in colob notebook.
 5.2 Evaluation results
 ++++++++++++++++++++++++
 
+We build tow ChromaDbs one with Raw definitions and one with refined definitions. Then we apply our Evaluation Strategy on each of them.
+
+We use as an Embedding model `all-MiniLM-L6-v2 <https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2>`_.
+
+We can observe the results bellow :
+
+.. figure:: /Docs/Images/4_Categorization/Image7.png
+   :width: 100%
+   :align: center
+   :alt: Categorization     
+   :name: sdc      
+
+
+
+
+
+
+
+
+
 
 
 
