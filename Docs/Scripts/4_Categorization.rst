@@ -132,9 +132,23 @@ To test these approaches we need first to an evaluation dataset.
 4.1 Grounding Truth
 -----------------------
 
+We create a small dataset of 34 invoices.
 
+- Run **Llama3.1-8b** on each invoice to generate a simple analysis (prompt).
+- **Manually** select the right account ID.
+- We save all in a csv file.
 
+Why Manually ?
 
+Because we already test **GPT-4o** on this task but it dosn't identify the right account correctly.
+
+Example of the csv file :
+
+.. figure:: /Docs/Images/4_Categorization/Image5.png
+   :width: 100%
+   :align: center
+   :alt: Categorization
+   :name: Pipeline
 
 
 
