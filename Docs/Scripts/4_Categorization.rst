@@ -205,6 +205,12 @@ We can observe the results bellow :
 - With the refined definitions we got  less cases of **Unretrieved-correct-definition**
 
 
+You can test by yourself this with the colab notebook bellow.
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Raw_Vs_Refined.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 
 
 
