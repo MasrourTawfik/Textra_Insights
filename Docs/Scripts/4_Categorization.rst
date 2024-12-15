@@ -89,8 +89,8 @@ The final desired output locks like this :
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Data_Preparation.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-2.Raw Definitions Vs Refined Definitions
-----------------------------------------
+2.Raw Definitions
+------------------
 
 To understand why we need to refine the definitions extracted from the PCG file, we take here an example of a invoice.
 
@@ -113,7 +113,26 @@ Here is the result of the similarities :
    :alt: Categorization
    :name: Pipeline
 
-You notice that similarities are close to each other that means a not **Reliable** Retrievement process
+You notice that the similarities are close to each other, indicating a not **reliable** retrieval process.
+
+3.Different Approaches
+------------------------
+
+Enhancing this retrieval process can be done by:
+
+- Refining the definitions with **keywords** and **examples**.
+- Benchmarking multiple embedding models and choosing the best one.
+- Fine-tuning the embedding models for our use case.
+
+4.Evaluation Strategy
+-----------------------
+
+To test these approaches we need first to an evaluation dataset.
+
+4.1 Grounding Truth
+-----------------------
+
+
 
 
 
