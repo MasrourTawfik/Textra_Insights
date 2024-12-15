@@ -211,8 +211,16 @@ You can test by yourself this with the colab notebook bellow.
 
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Raw_Vs_Refined.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+6.Benchmark Multiple Embedding Models
+--------------------------------------
 
+Here we will test multiple embedding models to see which one is the best. We used the same Evaluation Strategy as in the previous section.
 
+.. hint::
+
+   - Use this `Embedding models LeaderBoard <https://huggingface.co/spaces/mteb/leaderboard>`_ to find quickly the best embedding models, go to **Retrieval** then select **French**.
+   - Pay attention to the **Memory Usage(fp32)** metric is the required amount of memory to run the Embedding model.
+   - You can also go `here <https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=likes>`_ to find more Embedding models.
 
 
 
