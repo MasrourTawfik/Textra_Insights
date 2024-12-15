@@ -244,6 +244,9 @@ The table below shows the results of the benchmarking :
 +-------------------------------------------+----------------+------------------+
 | Lajavaness/bilingual-embedding-large      | 0.4639         | **5**            |
 +-------------------------------------------+----------------+------------------+
+| Alibaba-NLP/gte-Qwen2-1.5B-instruct       | 0.5149         | **5**            |
++-------------------------------------------+----------------+------------------+
+
 
 
 We highly recommend re-implementing this benchmarking because new embedding models are continually being added to the HuggingFace Hub.
