@@ -201,7 +201,8 @@ We can observe the results bellow :
    :name: sdc      
 
 
-
+- With the refined definitions we got a better **RAG_Quality Score** of **0.33** comparing to the **0.29** obtained with the raw definitions.
+- With the refined definitions we got  less cases of **Unretrieved-correct-definition**
 
 
 
