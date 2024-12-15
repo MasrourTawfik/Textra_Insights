@@ -144,11 +144,11 @@ Because we already test **GPT-4o** on this task but it dosn't identify the right
 
 Example of the csv file :
 
-.. figure:: /Docs/Images/4_Categorization/Image5.png
+.. figure:: /Docs/Images/4_Categorization/Image6.png
    :width: 100%
    :align: center
    :alt: Categorization
-   :name: Pipeline
+   :name: Queries
 
 
 
