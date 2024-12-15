@@ -122,7 +122,7 @@ Enhancing this retrieval process can be done by:
 
 - Refining the definitions with **keywords** and **examples**.
 - Benchmarking multiple embedding models and choosing the best one.
-- Fine-tuning the embedding models for our use case.
+- Fine-tuning the embedding model for our use case.
 
 4.Evaluation Strategy
 -----------------------
