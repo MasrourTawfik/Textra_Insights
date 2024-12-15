@@ -64,7 +64,7 @@ We used **Marker Engine** implemented in the top of **Surya OCR** to convert our
 The official Github repository of **Marker** can be found `here <https://github.com/VikParuchuri/marker>`_.
 
 1.2 Cleaning
-+++++++++++++++++++++
++++++++++++++
 
 To clean the result Markdown file we need to remove :
 
@@ -89,10 +89,29 @@ The final desired output locks like this :
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/Data_Preparation.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
+2.Raw Definitions Vs Refined Definitions
+----------------------------------------
 
+To understand why we need to refine the definitions extracted from the PCG file, we take here an example of a invoice.
 
+- We run an PaddleOCR on a **Lydec** invoice.
+- The resulting text passs to **Llama3.1-8b** to generate a simple analysis (prompt).
+- Then we took 3 condidates definitions one of them is the right one. (account *6125*)
+- We embedd the definitions with the prompt and we mesure the similarities.
 
+.. figure:: /Docs/Images/4_Categorization/Image4.png
+   :width: 100%
+   :align: center
+   :alt: Categorization
+   :name: Pipeline
 
+Here is the result of the similarities :
+
+.. figure:: /Docs/Images/4_Categorization/Image3.png
+   :width: 100%
+   :align: center
+   :alt: Categorization
+   :name: Pipeline
 
 
 

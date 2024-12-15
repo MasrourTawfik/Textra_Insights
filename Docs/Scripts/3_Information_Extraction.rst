@@ -52,7 +52,6 @@ To understand better the benifit of a Document Parser, here is a video from Mega
     </div>
 
 
-
 .. note:: 
 
    - Visit the `Docling <https://ds4sd.github.io/docling/>`_ documentation for more details.
