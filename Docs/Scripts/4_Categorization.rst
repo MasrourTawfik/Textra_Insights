@@ -223,8 +223,7 @@ Here we will test multiple embedding models to see which one is the best. We use
    - You can also go `here <https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=likes>`_ to find more Embedding models.
 
 
-
-
+We build a ChromaDB with each Embedding model and we apply our Evaluation Strategy on each of them.
 
 
 
