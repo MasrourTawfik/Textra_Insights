@@ -160,7 +160,13 @@ You find bellow a Colab notebook showing how to create your Evaluation dataset a
 4.2 How to bechmark :
 ---------------------
 
+A good retrieval process should return the definition (*Chunk*) of the appropriate account In addition to high similarity with the Invoice-Prompt (*Query*).
+for the 3 approaches we can do the following :
 
+- Build a **ChromaDB** with our definitions.
+- For each **Query** from **Queries.csv** retreive the top **5** similar definitions with their **Account IDs** as **Metadata**.
+- If One of the retreived  **Accounts IDs** correspond to the correct ID , we take the **Similarity Score** as evaluation metric for this retrveivement.
+- We do the same for all the **Queries** and we take the average of the **Similarity Scores** as final **RAG_Quality Score**.
 
 
 
