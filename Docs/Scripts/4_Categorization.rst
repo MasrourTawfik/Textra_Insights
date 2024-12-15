@@ -113,7 +113,7 @@ Here is the result of the similarities :
    :alt: Categorization
    :name: Pipeline
 
-
+You notice that similarities are close to each other that means a not **Reliable** Retrievement process
 
 
 
