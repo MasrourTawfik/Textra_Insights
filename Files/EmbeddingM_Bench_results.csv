@@ -1,0 +1,8 @@
+Embedding_modle,Average_Quality,Numberof_Zeros
+Alibaba-NLP/gte-multilingual-base,0.4264177557757193,12
+dangvantuan/french-document-embedding,0.575826122338465,8
+hkunlp/instructor-large,0.579555443999912,12
+thenlper/gte-large,0.5921561597653755,11
+thenlper/gte-large-zh,0.3879648468678143,16
+Alibaba-NLP/gte-large-en-v1.5,0.4025076743285033,16
+Lajavaness/bilingual-embedding-large,0.463900163282331,5
