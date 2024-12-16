@@ -256,5 +256,48 @@ We highly recommend re-implementing this benchmarking because new embedding mode
    <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/EmbeddingM_Benchmarking.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
+7.Fine-tuning the Embedding Model
+----------------------------------
+
+You need first to construct a Synthetic Dataset with the refined definitions using **GPT-4o-mini** free api from github marketplace.
+
+- We prompt the LLM with the refined definition and we ask for 30 real-world scinarious.
+- Then we push our datset to a HuggingFace Dataset.
+- We fine-tune the embedding model on this dataset.
+
+Unfortunately, after evaluation of the fine-tuned model, we found that the **RAG_Quality Score** is not improving but getting worse. That can be caused of :
+
+- Bad dataset quality.
+- Bad Hyperparameters tuning.
+
+The resluts after fine-tuning the embedding model can be found here :
+
+Noureddinesa Benchmarking Results
+================================
+
++-----------------------------------------------+----------------+------------------+
+| Embedding Model                               | Average Quality| Number of Zeros  |
++===============================================+================+==================+
+| Noureddinesa/Invoices_french-document-embedding| 0.2933         | 14               |
++-----------------------------------------------+----------------+------------------+
+| Noureddinesa/Invoices_bilingual-embedding-large| 0.3632         | 10               |
++-----------------------------------------------+----------------+------------------+
+| Noureddinesa/Invoices_gte-multilingual-base   | 0.3055         | 14               |
++-----------------------------------------------+----------------+------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
