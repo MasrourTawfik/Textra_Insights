@@ -272,15 +272,15 @@ Unfortunately, after evaluation of the fine-tuned model, we found that the **RAG
 
 The resluts after fine-tuning the embedding model can be found here :
 
-+-----------------------------------------------+----------------+------------------+
-| Embedding Model                               | Average Quality| Number of Zeros  |
-+===============================================+================+==================+
-| Noureddinesa/Invoices_french-document-embedding| 0.2933         | 14               |
-+-----------------------------------------------+----------------+------------------+
-| Noureddinesa/Invoices_bilingual-embedding-large| 0.3632         | 10               |
-+-----------------------------------------------+----------------+------------------+
-| Noureddinesa/Invoices_gte-multilingual-base   | 0.3055         | 14               |
-+-----------------------------------------------+----------------+------------------+
++--------------------------------------------------+-----------------+------------------+
+| Embedding Model                                  | Average Quality | Number of Zeros  |
++==================================================+=================+==================+
+| Noureddinesa/Invoices_french-document-embedding  | 0.2933          | 14               |
++--------------------------------------------------+-----------------+------------------+
+| Noureddinesa/Invoices_bilingual-embedding-large  | 0.3632          | 10               |
++--------------------------------------------------+-----------------+------------------+
+| Noureddinesa/Invoices_gte-multilingual-base      | 0.3055          | 14               |
++--------------------------------------------------+-----------------+------------------+
 
 The colab nootebook for **Synthetic Dataset** and **Fine-tuning** can be found here :
 
