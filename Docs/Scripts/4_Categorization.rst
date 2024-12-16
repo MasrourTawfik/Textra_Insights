@@ -272,9 +272,6 @@ Unfortunately, after evaluation of the fine-tuned model, we found that the **RAG
 
 The resluts after fine-tuning the embedding model can be found here :
 
-Noureddinesa Benchmarking Results
-================================
-
 +-----------------------------------------------+----------------+------------------+
 | Embedding Model                               | Average Quality| Number of Zeros  |
 +===============================================+================+==================+
