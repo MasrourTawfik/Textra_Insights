@@ -285,8 +285,15 @@ Noureddinesa Benchmarking Results
 | Noureddinesa/Invoices_gte-multilingual-base   | 0.3055         | 14               |
 +-----------------------------------------------+----------------+------------------+
 
+The colab nootebook for **Synthetic Dataset** and **Fine-tuning** can be found here :
 
+.. raw:: html
 
+   <a href="https://colab.research.google.com/github/MasrourTawfik/Textra_Insights/blob/main/Notebooks/FineTuning.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+.. hint::
+
+   - You can refer to our dataset `here <https://huggingface.co/datasets/Noureddinesa/Invoices_embedding_3>`_.
 
 
 
