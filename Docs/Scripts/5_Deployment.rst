@@ -94,6 +94,8 @@ The complete Dockerfile
 Once you commit this file, your space will switch to Building, 
 and you should see the container's build logs pop up so you can monitor its status.
 
+- If you are using Ollama refer to `here <https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image>`_ To see how to use Ollama as a Docker image.
+
 Step 4: Using the application 🚀
 ++++++++++++++++++++++++++++++++
 
