@@ -9,5 +9,6 @@ Welcome to Textra Insights's documentation!
    Docs/Scripts/2_Team.rst
    Docs/Scripts/3_Information_Extraction.rst
    Docs/Scripts/4_Categorization.rst
+   Docs/Scripts/Deployment.rst
 
 
