@@ -269,6 +269,7 @@ Unfortunately, after evaluation of the fine-tuned model, we found that the **RAG
 
 - Bad dataset quality.
 - Bad Hyperparameters tuning.
+- May be using a dataset of only Positive examples can give good results.(We heightly recommend to test that).
 
 The resluts after fine-tuning the embedding model can be found here :
 
@@ -291,6 +292,40 @@ The colab nootebook for **Synthetic Dataset** and **Fine-tuning** can be found h
 .. hint::
 
    - You can refer to our dataset `here <https://huggingface.co/datasets/Noureddinesa/Invoices_embedding_3>`_.
+
+
+8.Final Pipeline
+------------------
+
+After testing all these approaches, we decide to use two embedding models for two Retrievers in our RAG pipeline :
+
+- **thenlper/gte-large** and **Lajavaness/bilingual-embedding-large** , they are the best in our benchmarking.
+
+The final pipeline looks like this :
+
+.. figure:: /Docs/Images/4_Categorization/Image8.png
+   :width: 100%
+   :align: center
+   :alt: Categorization
+   :name: Final Pipeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
