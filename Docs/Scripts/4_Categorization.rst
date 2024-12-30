@@ -310,11 +310,22 @@ The final pipeline looks like this :
    :name: Final Pipeline
 
 
+- **Prompter** : 
 
+   - **Llama3.1-8b** for generating the prompt describing the invoice.
 
+- **Experts** :
 
+   - **thenlper/gte-large** for retrieving the candidate definitions with their Accounts Ids and titles as Metadata from the first ChromaDB.
+   - The Expert1 decide then what is the appropriate Debit Account based on the Prompt, OCR text, and the retrieved definitions.
+   - **Expert2** performs the same but with the second ChromaDB and the **Lajavaness/bilingual-embedding-large**.
 
+- **Boss** :
 
+   - We used **aya-expanse:8b** from **Cohere AI** because it performed good for the Boss task.
+   - The Boss will decide the final Debit Account based on the two Debit Accounts proposed by the Experts and Refering to the OCR text.
+   - The final output is structered in a **JSON** format with keys **{ID,Justification}**.
+   - Justification is just for diagnostic purposes we are intrested only in the Debit Account ID.
 
 
 
