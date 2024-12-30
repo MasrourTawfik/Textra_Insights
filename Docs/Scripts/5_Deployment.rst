@@ -1,5 +1,5 @@
-Deployment
-===========
+🚀 Deployment
+==================
 
 You can deploy the two built-in pilpelines (**Extraction, Categorization**) in a Cloud services like AWS, Azure, GCP, etc or even HuggingFace in form of a **REST API**.
 
@@ -7,6 +7,8 @@ With the help of **Flask,FastAPI**, then use this API in your application (Gradi
 
 Deploying Your FastAPI Applications on Huggingface Via Docker
 -------------------------------------------------------------
+
+Note that the LLMs used are medium size models and for good experience you may need to a L4 GPU instead of the free CPU provided by HuggingFace.
 
 Step 1: Create a new Docker Space
 +++++++++++++++++++++++++++++++++
@@ -65,13 +67,52 @@ in a file **router.py**, build your routes for example:
    - Sets up the environment, installs dependencies from `requirements.txt`, and runs the `router.py` script.
 
 
+Step 3: The Dockerfile
+++++++++++++++++++++++
 
+In this step, we will write a Dockerfile that sets up a Python 3.9 environment, installs the packages listed in requirements.txt, and starts a FastAPI app on port 7860.
 
+The complete Dockerfile
 
+.. code-block:: bash
 
+    # Use the official Python 3.10.9 image
+    FROM python:3.10.9
 
+    # Copy the current directory contents into the container at .
+    COPY . .
 
+    # Set the working directory to /
+    WORKDIR /
 
+    # Install requirements.txt 
+    RUN pip install --no-cache-dir --upgrade -r /requirements.txt
+
+    # Start the FastAPI app on port 7860, the default port expected by Spaces
+    CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
+
+Once you commit this file, your space will switch to Building, 
+and you should see the container's build logs pop up so you can monitor its status.
+
+Step 4: Using the application 🚀
+++++++++++++++++++++++++++++++++
+
+If all goes well, your space should switch to Running once it's done building. Once the Building is finished, 
+you can use the deployed app as shown in the picture. Click on Embed this space.
+
+.. figure:: /Docs/Images/5_Deployment/Image3.png
+   :width: 100%
+   :align: center
+   :alt: Image3
+   :name: Using the application
+
+Copy the link provided in the Direct URL and paste it into a new browser tab.
+
+.. figure:: /Docs/Images/5_Deployment/Image4.png
+   :width: 100%
+   :align: center
+   :alt: Image4
+   :name: Using the application
 
 
 
