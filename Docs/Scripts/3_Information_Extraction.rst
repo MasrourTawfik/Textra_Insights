@@ -58,7 +58,11 @@ To understand better the benifit of a Document Parser, here is a video from Mega
    - You can find `here <https://github.com/QuivrHQ/MegaParse>`_ the MegaParse repository
    - For Upstage API, you can find `here <https://www.upstage.ai/products/document-parse>`_ the official website.
 
-A hands-on example of this pipeline can be found in colab notebook.
+A hands-on example of this pipeline can be found in colab notebook. 
+
+.. hint::
+      
+   Before jumping into the next colab insure that you close the previous one and reconnect to the Colab GPU in order to free the memory space avoiding **OutOfMemory error**.
 
 .. raw:: html
 
